@@ -21,61 +21,61 @@ document.addEventListener("DOMContentLoaded", (event) => {
   tl.to(pet1, {
     duration: 1,
     scale: 1000,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(pet1, {
     duration: 0.1,
     opacity: 0,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(pet2, {
     duration: 1,
     scale: 1000,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(pet2, {
     duration: 0.1,
     opacity: 0,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(content, {
     duration: 1,
     scale: 1000,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(content, {
     duration: 0.1,
     opacity: 0,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(pet3, {
     duration: 1,
     scale: 1000,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(pet3, {
     duration: 0.1,
     opacity: 0,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(pet4, {
     duration: 1,
     scale: 1000,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
   tl.to(pet4, {
     duration: 0.1,
     opacity: 0,
-    ease: "power4.out",
+    ease: "power4.in",
   })
 
 })
