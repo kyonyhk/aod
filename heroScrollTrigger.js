@@ -2,7 +2,13 @@ const pet1 = document.querySelector(".hero_pet01-wrap")
 const pet2 = document.querySelector(".hero_pet02-wrap")
 const pet3 = document.querySelector(".hero_pet03-wrap")
 const pet4 = document.querySelector(".hero_pet04-wrap")
-const content = document.querySelector(".hero_content-wrap")
+
+const logo = document.querySelector(".hero_genopets-logo-wrap")
+const heading = document.querySelector(".hero_heading-wrap")
+const download = document.querySelector(".hero_download-wrap")
+
+const glow = document.querySelector(".hero_glow-wrap")
+
 const section2 = document.querySelector(".is-second-section")
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -20,62 +26,47 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   tl.to(pet1, {
     duration: 1,
-    scale: 1000,
-    ease: "power4.in",
-  })
-
-  tl.to(pet1, {
-    duration: 0.1,
-    opacity: 0,
+    xPercent: 30,
+    yPercent: -30,
+    scale: 1.5,
     ease: "power4.in",
   })
 
   tl.to(pet2, {
     duration: 1,
-    scale: 1000,
+    xPercent: -30,
+    yPercent: 30,
+    scale: 1.5,
     ease: "power4.in",
   })
 
-  tl.to(pet2, {
-    duration: 0.1,
-    opacity: 0,
-    ease: "power4.in",
-  })
-
-  tl.to(content, {
+  tl.to([logo, heading, download], {
     duration: 1,
-    scale: 1000,
-    ease: "power4.in",
-  })
-
-  tl.to(content, {
-    duration: 0.1,
-    opacity: 0,
+    xPercent: 10,
+    scale: 1.5,
     ease: "power4.in",
   })
 
   tl.to(pet3, {
     duration: 1,
-    scale: 1000,
-    ease: "power4.in",
-  })
-
-  tl.to(pet3, {
-    duration: 0.1,
-    opacity: 0,
+    xPercent: 30,
+    yPercent: 30,
+    scale: 1.5,
     ease: "power4.in",
   })
 
   tl.to(pet4, {
     duration: 1,
-    scale: 1000,
+    xPercent: -30,
+    yPercent: -30,
+    scale: 1.5,
     ease: "power4.in",
   })
 
-  tl.to(pet4, {
-    duration: 0.1,
+  tl.to(glow, {
+    duration: 1,
     opacity: 0,
-    ease: "power4.in",
-  })
+    ease: "power4.out"
+  }) 
 
 })
