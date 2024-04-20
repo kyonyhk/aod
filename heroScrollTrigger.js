@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(pet1, {
-    z: 100,
+    scale: 1000,
     ease: "power4.out",
   })
 
