@@ -3,6 +3,7 @@ const pet2 = document.querySelector(".hero_pet02-wrap")
 const pet3 = document.querySelector(".hero_pet03-wrap")
 const pet4 = document.querySelector(".hero_pet04-wrap")
 
+const content = document.querySelector(".hero_content-container")
 const logo = document.querySelector(".hero_genopets-logo-wrap")
 const heading = document.querySelector(".hero_heading-wrap")
 const download = document.querySelector(".hero_download-wrap")
@@ -33,22 +34,22 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(pet2, {
-    duration: 1,
+    duration: 0.2,
     xPercent: -300,
     yPercent: 300,
     scale: 4,
     ease: "power4.in",
   })
 
-  tl.to([logo, heading, download], {
-    duration: 1,
+  tl.to(content, {
+    duration: 0.2,
     xPercent: 10,
     scale: 4,
     ease: "power4.in",
   })
 
   tl.to(pet3, {
-    duration: 1,
+    duration: 0.2,
     xPercent: 300,
     yPercent: 300,
     scale: 4,
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(pet4, {
-    duration: 1,
+    duration: 0.2,
     xPercent: -300,
     yPercent: -300,
     scale: 4,
@@ -64,7 +65,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(glow, {
-    duration: 1,
+    duration: 0.2,
     opacity: 0,
     ease: "power4.out"
   }) 
