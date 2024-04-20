@@ -1,5 +1,3 @@
-import { gsap } from "gsap"; 
-
 const pet1 = document.querySelector(".hero_pet01-wrap")
 const pet2 = document.querySelector(".hero_pet02-wrap")
 const pet3 = document.querySelector(".hero_pet03-wrap")
