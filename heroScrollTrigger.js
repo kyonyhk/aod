@@ -26,16 +26,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   tl.to(pet1, {
     duration: 1,
-    xPercent: 100,
-    yPercent: -100,
+    xPercent: 200,
+    yPercent: -200,
     scale: 4,
     ease: "power4.in",
   })
 
   tl.to(pet2, {
     duration: 1,
-    xPercent: -100,
-    yPercent: 100,
+    xPercent: -200,
+    yPercent: 200,
     scale: 4,
     ease: "power4.in",
   })
@@ -49,16 +49,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   tl.to(pet3, {
     duration: 1,
-    xPercent: 100,
-    yPercent: 100,
+    xPercent: 200,
+    yPercent: 200,
     scale: 4,
     ease: "power4.in",
   })
 
   tl.to(pet4, {
     duration: 1,
-    xPercent: -100,
-    yPercent: -100,
+    xPercent: -200,
+    yPercent: -200,
     scale: 4,
     ease: "power4.in",
   })
