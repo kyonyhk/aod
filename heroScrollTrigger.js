@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(content, {
+    xPercent: 50,
     scale: 20,
     ease: "power4.in",
   })
