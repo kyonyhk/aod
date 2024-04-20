@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: section2 ,
+      trigger: section2,
       start: "top 50%",
       end: "bottom 50%", 
       scrub: true,
@@ -19,27 +19,63 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(pet1, {
+    duration: 1,
+    scale: 1000,
+    ease: "power4.out",
+  })
+
+  tl.to(pet1, {
+    duration: 0.1,
+    opacity: 0,
+    ease: "power4.out",
+  })
+
+  tl.to(pet2, {
+    duration: 1,
     scale: 1000,
     ease: "power4.out",
   })
 
   tl.to(pet2, {
-    z: 100,
+    duration: 0.1,
+    opacity: 0,
     ease: "power4.out",
   })
 
   tl.to(content, {
-    z: 100,
-    ease: "power4.out",
-  })
-
-  tl.to(pet2, {
-    z: 100,
+    duration: 1,
+    scale: 1000,
     ease: "power4.out",
   })
 
   tl.to(content, {
-    z: 100,
+    duration: 0.1,
+    opacity: 0,
     ease: "power4.out",
   })
+
+  tl.to(pet3, {
+    duration: 1,
+    scale: 1000,
+    ease: "power4.out",
+  })
+
+  tl.to(pet3, {
+    duration: 0.1,
+    opacity: 0,
+    ease: "power4.out",
+  })
+
+  tl.to(pet4, {
+    duration: 1,
+    scale: 1000,
+    ease: "power4.out",
+  })
+
+  tl.to(pet4, {
+    duration: 0.1,
+    opacity: 0,
+    ease: "power4.out",
+  })
+
 })
