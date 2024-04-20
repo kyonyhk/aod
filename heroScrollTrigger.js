@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(pet1, {
-    duration: 1,
     xPercent: 300,
     yPercent: -300,
     scale: 4,
@@ -34,7 +33,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(pet2, {
-    duration: 0.2,
     xPercent: -300,
     yPercent: 300,
     scale: 4,
@@ -42,14 +40,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(content, {
-    duration: 0.2,
     xPercent: 10,
     scale: 4,
     ease: "power4.in",
   })
 
   tl.to(pet3, {
-    duration: 0.2,
     xPercent: 300,
     yPercent: 300,
     scale: 4,
@@ -57,7 +53,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(pet4, {
-    duration: 0.2,
     xPercent: -300,
     yPercent: -300,
     scale: 4,
@@ -65,7 +60,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 
   tl.to(glow, {
-    duration: 0.2,
     opacity: 0,
     ease: "power4.out"
   }) 
