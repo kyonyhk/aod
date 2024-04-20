@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   tl.to(pet4, {
     xPercent: -300,
     yPercent: -300,
-    scale: 4,
+    scale: 20,
     ease: "power4.in",
   })
 
