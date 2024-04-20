@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: section2,
       start: "top 50%",
-      end: "bottom 50%", 
+      end: "bottom top", 
       scrub: true,
       markers: true,
     }
@@ -26,40 +26,40 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   tl.to(pet1, {
     duration: 1,
-    xPercent: 30,
-    yPercent: -30,
-    scale: 1.5,
+    xPercent: 100,
+    yPercent: -100,
+    scale: 4,
     ease: "power4.in",
   })
 
   tl.to(pet2, {
     duration: 1,
-    xPercent: -30,
-    yPercent: 30,
-    scale: 1.5,
+    xPercent: -100,
+    yPercent: 100,
+    scale: 4,
     ease: "power4.in",
   })
 
   tl.to([logo, heading, download], {
     duration: 1,
     xPercent: 10,
-    scale: 1.5,
+    scale: 4,
     ease: "power4.in",
   })
 
   tl.to(pet3, {
     duration: 1,
-    xPercent: 30,
-    yPercent: 30,
-    scale: 1.5,
+    xPercent: 100,
+    yPercent: 100,
+    scale: 4,
     ease: "power4.in",
   })
 
   tl.to(pet4, {
     duration: 1,
-    xPercent: -30,
-    yPercent: -30,
-    scale: 1.5,
+    xPercent: -100,
+    yPercent: -100,
+    scale: 4,
     ease: "power4.in",
   })
 
