@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     trigger: section2,
     start: "top 90%",
     end: "bottom top",
-    toggleActions: "play pause reverse none",
+    toggleActions: "play none reverse none",
     markers: true,
   });
 });
