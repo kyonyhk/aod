@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
   }, "-=0.25") // overlap for seamless transition
     
   .to(content, {
-    xPercent: 100,
-    scale: 150,
+    xPercent: 150,
+    scale: 100,
     ease: "power4.in",
     duration: 0.5
   }, "-=0.25") // overlap for seamless transition
