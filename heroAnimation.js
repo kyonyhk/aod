@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     yPercent: -300,
     scale: 4,
     ease: "power4.in",
-    duration: 0.5
+    duration: 0.2
   })
     
   .to(pet2, {
@@ -33,37 +33,38 @@ document.addEventListener("DOMContentLoaded", (event) => {
     yPercent: 300,
     scale: 4,
     ease: "power4.in",
-    duration: 0.5
-  }, "-=0.25") // overlap for seamless transition
+    duration: 0.2
+  }, "-=0.1") // overlap for seamless transition
     
   .to(content, {
     xPercent: 150,
     scale: 100,
     ease: "power4.in",
-    duration: 0.5
-  }, "-=0.25") // overlap for seamless transition
+    duration: 0.2
+  }, "-=0.1
+      ") // overlap for seamless transition
     
   .to(pet3, {
     xPercent: 300,
     yPercent: 300,
     scale: 4,
     ease: "power4.in",
-    duration: 0.5
-  }, "-=0.25") // overlap for seamless transition
+    duration: 0.2
+  }, "-=0.1") // overlap for seamless transition
     
   .to(pet4, {
     xPercent: -300,
     yPercent: -300,
     scale: 4,
     ease: "power4.in",
-    duration: 0.5
-  }, "-=0.25") // overlap for seamless transition
+    duration: 0.2
+  }, "-=0.1") // overlap for seamless transition
     
   .to(glow, {
     opacity: 0,
     ease: "power4.out",
-    duration: 0.5
-  }, "-=0.25"); // overlap for seamless transition
+    duration: 0.2
+  }, "-=0.1"); // overlap for seamless transition
 
   ScrollTrigger.create({
     animation: tl,
