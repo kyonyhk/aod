@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const tl = gsap.timeline({
     paused: true,
     reversed: true,
-  );
+  });
 
   tl.to(pet1, {
     xPercent: 300,
