@@ -1,5 +1,3 @@
-import { gsap } from "gsap";
-
 const screenWidth = window.innerWidth;
 const screenHeight = window.innerHeight;
 
