@@ -103,7 +103,7 @@ function generatePointsForHexagon(x, y) {
 
     // Function to start the main hexagon scaling animation
 function startAnimation() {
-    const section3 = document.querySelector(".is-third-section")
+    const hexagonScaleAnimationTrigger = document.querySelector(".is-third-section")
 
     const numberOfLayers = initializeLayerBoundaries(rows).length;
     const layers = Array.from({ length: numberOfLayers }, (_, i) => `layer-${i + 1}`);
@@ -137,7 +137,7 @@ function startAnimation() {
 
 // ScrollTrigger to initiate the scaling from 0 to 1
 ScrollTrigger.create({
-    trigger: section3, // Replace with your actual trigger selector
+    trigger: hexagonScaleAnimationTrigger, // Replace with your actual trigger selector
     start: "top 60%",
     end: "bottom top",
     onEnter: startAnimation,
@@ -147,6 +147,8 @@ ScrollTrigger.create({
 
 // Function to enhance hexagons by scaling from 1 to 1.1
 function enhanceHexagons() {
+    const hexagonEndAnimationTrigger = document.querySelector(".is-third-section")
+    
     gsap.to('.polygon', {
         scale: 1.1,
         duration: 0.2,
@@ -161,7 +163,7 @@ function enhanceHexagons() {
 
 // ScrollTrigger to initiate the enhancement scaling from 1 to 1.1
 ScrollTrigger.create({
-    trigger: section3, // This could be the same or a different element
+    trigger: hexagonEndAnimationTrigger, // This could be the same or a different element
     start: "top 30%", // Start at a different scroll point
     end: "bottom top",
     onEnter: enhanceHexagons,
